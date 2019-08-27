@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - AEP</title>
+    <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Bootstrap core CSS -->
+	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="dist/css/mdb.min.css" rel="stylesheet">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+	/* BASIC */
+
+	body {
+		height: 100vh;
+	}
+
+	/*img {
+		pointer-events: none;
+	}*/
+
+	.card{
+		background-color: transparent;
+	}
+	</style>
+</head>
+<body class="elegant-color-dark">
+	<div class="container-fluid h-100">
+		<div id="lightbox"></div>
+		<div id="carrusel" class="carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner"  style="height: 15em">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+					alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg"
+					alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg"
+					alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<div class="row pt-2 pb-2">
+			<div class="col hola">
+				<ul class="nav md-pills nav-justified pills-green">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#Inicio" role="tab"><i class="fas fa-home"></i> Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#Yo" role="tab"><i class="fas fa-male"></i> Acerca de mí</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#Proyectos" role="tab"><i class="far fa-file-code"></i> Mis Proyectos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#Contacto" role="tab"><i class="fas fa-address-book"></i> Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="jarallax" data-jarallax-video="webm:./Media/Videos/Background.webm">
+			<div class="tab-content">
+				<div class="tab-pane fade in show active" id="Inicio" role="tabpanel">
+	<div class="col green">
+		<p>Inicio</p>
+	</div>
+</div>				<div class="tab-pane fade in" id="Yo" role="tabpanel">
+	<div class="row justify-content-center">
+		<div class="col-md-4">
+			<div class="card testimonial-card white mt-5">
+				<div class="avatar mx-auto white">
+					<img src="Media/Images/Curriculum.jpg" class="rounded-circle" alt="yo avatar">
+				</div>
+				<div class="card-body">
+					<h4 class="card-title">Alexis Escalona Picazo</h4>
+					<hr>
+					<p><i class="fas fa-quote-left"></i> Informático altamente responsable, ordenado, organizado y comunicativo, 
+					cuyo objetivo es crear nuevas tecnologías que ayuden a facilitar las tareas de la vida diaria ofreciendo 
+					soluciones innovadoras y software de calidad que pueda competir e/o implementarse con las herramientas tecnológicas 
+					ofrecidas por grandes empresas. <i class="fas fa-quote-right"></i></p>
+				</div>
+			</div>
+			<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning mt-3">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#AmbitoAcademico" role="tab"><i class="fas fa-university"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#HabilidadesSuaves" role="tab"><i class="far fa-comments"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#HabilidadesDuras" role="tab"><i class="fas fa-book"></i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="offset-md-1 col-md-6">
+			<div class="tab-content pt-3">
+				<div class="tab-pane fade in show active" id="AmbitoAcademico" role="tabpanel">
+					<div class="card">
+						<div class="card-body">
+							<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning">
+								<li class="nav-item">
+									<a class="nav-link active" data-toggle="tab" href="#PerfilAcademico" role="tab">Perfil Académico</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#Reconocimientos" role="tab">Reconocimientos</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true"
+									aria-expanded="false">Certificaciones</a>
+									<div class="dropdown-menu dropdown-info">
+										<a class="dropdown-item" data-toggle="tab" href="#Idiomas" role="tab">Idiomas</a>
+										<a class="dropdown-item" data-toggle="tab" href="#PaqueteriaOffice" role="tab">Paquetería Office</a>
+									</div>
+								</li>
+							</ul>
+							<div class="tab-content pt-3">
+								<div class="tab-pane fade in show active" id="PerfilAcademico" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											Pasante de la Licenciatura en Ingeniería Cibernética y Sistemas Computacionales en la
+											Universidad La Salle México con un promedio de 8.8 
+											<br><br>*(Actualmente en proceso de liberación del servicio social.)
+											<a class="btn btn-sm btn-primary" data-toggle="popover-hover" data-img="https://mdbootstrap.com/img/logo/mdb192x192.jpg">
+												<i class="fas fa-info-circle"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="Reconocimientos" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<br>• Mejor página web en el evento "Expo Empresa y Jóvenes Emprendedores" de la escuela 
+											Justo Sierra San Mateo por 3 años consecutivos (2012-2014).
+											<br><br>• 2 Lugar en el concurso de Programación nivel intermedio llevado acabo en la semana de 
+											Ingeniería del 2016 de la Universidad La Salle.
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="Idiomas" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<br>• Cambridge Starters 2005 Con un resultado de 13 escudos
+											<br>• Preliminary English Test (PET) Con un resultado B1 Meritorio
+											<br>• TOEFL ITP 2014 Con un resultado de 533 puntos
+											<br>• IELTS 2014 Con un resultado de banda 6.5
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="PaqueteriaOffice" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<br>• Microsoft Word 2007 Academic
+											<br>• Microsoft Excel 2007 Academic
+											<br>• Microsoft Powerpoint 2007 Academic
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="HabilidadesSuaves" role="tabpanel">
+					<div class="card">
+						<div class="card-body">
+							<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning">
+								<li class="nav-item">
+									<a class="nav-link active" data-toggle="tab" href="#HabilidadesSuaves" role="tab">Habilidades Suaves</a>
+								</li>
+							</ul>
+							<div class="tab-content pt-3">
+								<div class="tab-pane fade in show active" id="HabilidadesSuaves" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											• Creatividad
+											<br>• Adaptación rápida al cambio
+											<br>• Trabajo en equipo
+											<br>• Trabajo bajo presión
+											<br>• Ser organizado y comunicativo
+											<br>• Objetividad
+											<br>• Lealtad
+											<br>• Integridad
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="HabilidadesDuras" role="tabpanel">
+					<div class="card">
+						<div class="card-body">
+							<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning">
+								<li class="nav-item">
+									<a class="nav-link active" data-toggle="tab" href="#LenguajesProgramacion" role="tab"><i class="fas fa-code"></i></a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link" data-toggle="tab" href="#LibreriasProgramacion" role="tab"><i class="fas fa-atlas"></i></a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link" data-toggle="tab" href="#BasesDeDatos" role="tab"><i class="fas fa-database"></i></a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link" data-toggle="tab" href="#HerramientasAnalisisYGraficacion" role="tab"><i class="fas fa-chart-bar"></i></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#HerramientasVideojuegos" role="tab"><i class="fas fa-gamepad"></i></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#HerramientasDiseño" role="tab"><i class="fas fa-object-group"></i></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#OtrasHabilidades" role="tab"><i class="fas fa-tasks"></i></a>
+								</li>
+							</ul>
+							<div class="tab-content pt-3">
+								<div class="tab-pane fade in show active" id="LenguajesProgramacion" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<div class="row text-center">
+												<div class="col">
+													<b>Lenguajes de programación</b>
+												</div>
+											</div>
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm m-0">
+													<tbody>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Java.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Java</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 100%; height: 1em">Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/CSharp.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">C#</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 100%; height: 1em">Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/DotNET.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">.NET</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 100%; height: 1em">Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Javascript.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Javascript</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 100%; height: 1em">Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/VBAExcel.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">VBA Excel</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 100%; height: 1em">Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/HTML.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">HTML 5</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 100%; height: 1em">Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/PHP.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">PHP</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 75%; height: 1em">Intermedio-Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/SQL.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">SQL</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 75%; height: 1em">Intermedio-Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/C.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">C</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 50%; height: 1em">Intermedio</div>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="LibreriasProgramacion" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<div class="row text-center">
+												<div class="col">
+													<b>Librerías y complementos para desarrollo de páginas web</b>
+												</div>
+											</div>
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm m-0">
+													<tbody>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/DotNETMVC.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">.NET MVC</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 100%; height: 1em">Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/JQuery.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">JQuery</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 100%; height: 1em">Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/CSS.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">CSS</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 75%; height: 1em">Intermedio-Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Bootstrap.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Bootstrap</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 75%; height: 1em">Intermedio-Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/AJAX.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">AJAX</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 75%; height: 1em">Intermedio-Avanzado</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/MDBootstrap.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">MDBootstrap</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 50%; height: 1em">Intermedio</div>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Angular.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Angular</p></td>
+															<td class="justify-content-center p-0">
+																<div class="progress md-progress mt-2 mb-0" style="height: 1em">
+																	<div class="progress-bar" role="progressbar" style="width: 50%; height: 1em">Intermedio</div>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="BasesDeDatos" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<div class="row text-center">
+												<div class="col">
+													<b>Análisis de sistemas, desarrollo e implementación de bases de datos
+													relacionales (RDBMS)</b>
+												</div>
+											</div>
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm m-0">
+													<tbody>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/SQLServer.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Microsoft SQL Server</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/OracleSQL.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Oracle SQL</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/MySQL.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">MySQL</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/CosmosDB.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Microsoft Azure Cosmos DB</p></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="HerramientasAnalisisYGraficacion" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<div class="row text-center">
+												<div class="col">
+													<b>Uso de herramientas para hacer análisis (minería de datos) y
+													representaciones gráficas de datos</b>
+												</div>
+											</div>
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm m-0">
+													<tbody>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/PowerBI.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Microsoft Power BI</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Excel.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Excel</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Matlab.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Matlab</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/JFreeChart.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">JFreeChart</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/PowerPoint.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">PowerPoint</p></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="HerramientasVideojuegos" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<div class="row text-center">
+												<div class="col">
+													<b>Uso de herramientas para desarrollo de videojuegos</b>
+												</div>
+											</div>
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm m-0">
+													<tbody>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Unity.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Unity</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/RPGMaker.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">RPG Maker MV</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/SpriterPro.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Spriter Pro</p></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="HerramientasDiseño" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<div class="row text-center">
+												<div class="col">
+													<b>Uso de herramientas para edición de audio, video y diseño gráfico
+													digital</b>
+												</div>
+											</div>
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm m-0">
+													<tbody>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/FLStudio.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">FL Studio</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Filmora.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Wondershare Filmora</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/Photoshop.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Adobe Photoshop</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/PaintDotNET.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Paint.NET</p></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="OtrasHabilidades" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<div class="row text-center">
+												<div class="col">
+													<b>Otras habilidades</b>
+												</div>
+											</div>
+											<br>• Desarrollo de Macros en Excel
+											<br>• Desarrollo de aplicaciones móviles a través de Xamarin
+											<br>• Manejo de información a través de archivos (Lectura, escritura, creación):
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm m-0 text-center">
+													<tbody>
+														<tr>
+															<td>⯈ .txt</td>
+															<td>⯈ Binarios</td>
+															<td>⯈ XML</td>
+															<td>⯈ JSON</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											• Conocimientos en Sistemas UNIX/LINUX
+											<br>•Conocimientos básicos en seguridad
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>				<div class="tab-pane fade in" id="Proyectos" role="tabpanel">
+	<div class="row justify-content-center">
+		<div class="col-md-3">
+			<div class="accordion md-accordion accordion-2" id="Proyectos" role="tablist">
+				<div class="card">
+					<div class="card-header elegant-color py-2 border border-dark rounded-lg mb-0 text-center" role="tab" id="TJava">
+						<a class="collapsed" data-toggle="collapse" data-parent="#Proyectos" href="#Java">
+							<h5 class="mb-0 text-white">
+								<b>Java</b> <i class="fas fa-angle-down rotate-icon"></i>
+							</h5>
+						</a>
+					</div>
+					<div id="Java" class="collapse show" role="tabpanel" data-parent="#Proyectos">
+						<div class="card-body py-2 grey lighten-2 rounded-lg mb-0">
+							<ul class="nav flex-column md-pills nav-justified pills-warning">
+								<li class="nav-item p-0">
+									<a class="nav-link active p-0" data-toggle="tab" href="#SistemaClubNocturno" role="tab">Sistema Antro</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#SistemaDeportes" role="tab">Sistema Deportes</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#MetodoSimplexYGrafico" role="tab">Método Simplex y Gráfico</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#CalculadorPerimetrosYAreas" role="tab">Calculador Perímetros y Áreas</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#JuegoEducativo" role="tab">Juego Java</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header elegant-color py-2 border border-dark rounded-lg mb-0 text-center" role="tab" id="TCSharp">
+						<a class="collapsed" data-toggle="collapse" data-parent="#Proyectos" href="#CSharp">
+							<h5 class="mb-0 text-white">
+								<b>C#</b> <i class="fas fa-angle-down rotate-icon"></i>
+							</h5>
+						</a>
+					</div>
+					<div id="CSharp" class="collapse" role="tabpanel" data-parent="#Proyectos">
+						<div class="card-body py-2 grey lighten-2 rounded-lg mb-0">
+							<ul class="nav flex-column md-pills nav-justified pills-warning">
+								<li class="nav-item p-0">
+									<a class="nav-link active p-0" data-toggle="tab" href="#!" role="tab">Proyecto 1</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#!" role="tab">Proyecto 2</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#!" role="tab">Proyecto 3</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header elegant-color py-2 border border-dark rounded-lg mb-0 text-center" role="tab" id="TExcel">
+						<a class="collapsed" data-toggle="collapse" data-parent="#Proyectos" href="#Excel">
+							<h5 class="mb-0 text-white">
+								<b>Excel</b> <i class="fas fa-angle-down rotate-icon"></i>
+							</h5>
+						</a>
+					</div>
+					<div id="Excel" class="collapse" role="tabpanel" data-parent="#Proyectos">
+						<div class="card-body py-2 grey lighten-2 rounded-lg mb-0">
+							<ul class="nav flex-column md-pills nav-justified pills-warning">
+								<li class="nav-item p-0">
+									<a class="nav-link active p-0" data-toggle="tab" href="#!" role="tab">Proyecto 1</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#!" role="tab">Proyecto 2</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#!" role="tab">Proyecto 3</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header elegant-color py-2 border border-dark rounded-lg mb-0 text-center" role="tab" id="TPHP">
+						<a class="collapsed" data-toggle="collapse" data-parent="#Proyectos" href="#PHP">
+							<h5 class="mb-0 text-white">
+								<b>PHP</b> <i class="fas fa-angle-down rotate-icon"></i>
+							</h5>
+						</a>
+					</div>
+					<div id="PHP" class="collapse" role="tabpanel" data-parent="#Proyectos">
+						<div class="card-body py-2 grey lighten-2 rounded-lg mb-0">
+							<ul class="nav flex-column md-pills nav-justified pills-warning">
+								<li class="nav-item p-0">
+									<a class="nav-link active p-0" data-toggle="tab" href="#!" role="tab">Proyecto 1</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#!" role="tab">Proyecto 2</a>
+								</li>
+								<li class="nav-item p-0">
+									<a class="nav-link p-0" data-toggle="tab" href="#!" role="tab">Proyecto 3</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<div class="tab-content pt-3">
+				<div class="tab-pane fade" id="CalculadorPerimetrosYAreas" role="tabpanel">
+	<div class="card">
+		<div class="card-body">
+			<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#PJ1VG" role="tab"><i class="fas fa-binoculars"></i> Visión General</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PJ1D" role="tab"><i class="fas fa-clipboard-list"></i> Detalles</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PJ1C" role="tab"><i class="far fa-images"></i> Capturas</a>
+				</li>
+			</ul>
+			<div class="tab-content pt-3">
+				<div class="tab-pane fade in show active" id="PJ1VG" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-8">
+									<b>Objetivo</b>
+									<br><p>Facilitar el aprendizaje de los niños a traves de una herramienta intuitiva
+									que permite:
+									<br>• Visualizar la forma geométrica de figuras en 2D y cuerpos 3D
+									<br>• Conocer las fórmulas para calcular el perimetro y área de figuras 2D y el área
+									total y volumen de cuerpos 3D.
+									<br>• Introducir los valores deseados y realizar el respectivo cálculo.</p>
+								</div>
+								<div class="col-md-4">
+									<div class="mdb-lightbox no-margin">
+										<figure class="col-md-4">
+											<a href="Proyectos/PJ1/Images/Interfaz.jpg" data-size="921x842">
+												<img src="Proyectos/PJ1/Images/Interfaz.jpg" class="img-fluid">
+											</a>
+											<figcaption>
+												<b>Interfaz de la aplicación <i class="fas fa-desktop"></i></b>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PJ1D" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-4">
+									<p><b>Tecnologías:</b> JDK 8 y Swing
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PJ1C" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							Capturas
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>				
+				<div class="tab-pane fade in show active" id="MetodoSimplexYGrafico" role="tabpanel">
+	<div class="card">
+		<div class="card-body">
+			<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#PJ3VG" role="tab"><i class="fas fa-binoculars"></i> Visión General</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PJ3C" role="tab"><i class="fas fa-list-alt"></i> Características</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PJ3DT" role="tab"><i class="fas fa-clipboard-list"></i> Detalles Técnicos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PJ3I" role="tab"><i class="far fa-images"></i> Capturas</a>
+				</li>
+			</ul>
+			<div class="tab-content pt-3">
+				<div class="tab-pane fade in show active" id="PJ3VG" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-8">
+									<b>¿Qué es?</b>
+									<br><p>Programa que resuelve problemas de programación lineal a través del método 
+									gráfico y método simplex de la M grande.</p>
+									<b>Objetivo</b>
+									<br><p class="mb-0">Optimización de recursos:</p>
+									<ul class="mb-0"><li>Maximizar (utilidades)</li>
+									<li>Minimizar (costos)</li></ul>
+								</div>
+								<div class="col-md-4">
+									<div class="mdb-lightbox no-margin">
+										<figure class="col">
+											<a href="Proyectos/PJ3/Images/Interfaz.jpg" data-size="734x586">
+												<img src="Proyectos/PJ3/Images/Interfaz.jpg" class="img-fluid">
+											</a>
+											<figcaption>
+												<b>Interfaz principal de la aplicación(Menú de Selección) <i class="fas fa-desktop"></i></b>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PJ3C" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col">
+									<div class="table-responsive text-nowrap">
+										<table class="table table-sm table-bordered m-0">
+											<tbody class="text-center">
+												<tr>
+													<th>Método</th>
+													<th class="font-weight-bold">Gráfico</th>
+													<th class="font-weight-bold">Simplex</th>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Objetivo</td>
+													<td class="p-0" colspan="2"><p class="mt-1 mb-0">Maximizar y Minimizar</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Función</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">2 variables</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">2 o más variables</p></td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold"># Restricciones</p></td>
+													<td class="p-0" colspan="2"><p class="mt-1 mb-0">2 o más restricciones</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Tipo Restricciones</p></td>
+													<td class="p-0" colspan="2"><p class="mt-1 mb-0">"<=", "=", ">="</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Visualizar la solución Gráficamente</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">Si</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">No</p></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PJ3DT" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col">
+									<div class="table-responsive text-nowrap">
+										<table class="table table-sm table-bordered m-0">
+											<tbody>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Tecnologías</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">JDK 8 y Swing</p></td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Librerías adicionales</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">JFreeChart</p></td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Plataforma</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">Aplicación de escritorio</p></td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Sistema Operativo</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">Windows</p></td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Memoria en disco requerida</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">1.96 mb</p></td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">RAM requerida</p></td>
+													<td class="p-0"><p class="mt-1 mb-0">150 mb</p></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PJ3I" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="col">
+								<p>Método Gráfico</p>
+								<div class="mdb-lightbox">
+									<figure class="col-md-4">
+										<a href="Proyectos/PJ3/Images/Interfaz.jpg" data-size="734x586">
+											<img src="Proyectos/PJ3/Images/Interfaz.jpg" class="img-fluid">
+										</a>
+										<figcaption>
+											<b>Interfaz principal de la aplicación(Menú de Selección) <i class="fas fa-desktop"></i></b>
+										</figcaption>
+									</figure>
+									<figure class="col-md-4">
+										<a href="Proyectos/PJ3/Images/Interfaz.jpg" data-size="734x586">
+											<img src="Proyectos/PJ3/Images/Interfaz.jpg" class="img-fluid">
+										</a>
+										<figcaption>
+											<b>Interfaz principal de la aplicación(Menú de Selección) <i class="fas fa-desktop"></i></b>
+										</figcaption>
+									</figure>
+									<figure class="col-md-4">
+										<a href="Proyectos/PJ3/Images/Interfaz.jpg" data-size="734x586">
+											<img src="Proyectos/PJ3/Images/Interfaz.jpg" class="img-fluid">
+										</a>
+										<figcaption>
+											<b>Interfaz principal de la aplicación(Menú de Selección) <i class="fas fa-desktop"></i></b>
+										</figcaption>
+									</figure>
+								</div>
+								<p>Método Simplex</p>
+								<div class="mdb-lightbox">
+									<figure class="col-md-4">
+										<a href="Proyectos/PJ3/Images/Interfaz.jpg" data-size="734x586">
+											<img src="Proyectos/PJ3/Images/Interfaz.jpg" class="img-fluid">
+										</a>
+										<figcaption>
+											<b>Interfaz principal de la aplicación(Menú de Selección) <i class="fas fa-desktop"></i></b>
+										</figcaption>
+									</figure>
+									<figure class="col-md-4">
+										<a href="Proyectos/PJ3/Images/Interfaz.jpg" data-size="734x586">
+											<img src="Proyectos/PJ3/Images/Interfaz.jpg" class="img-fluid">
+										</a>
+										<figcaption>
+											<b>Interfaz principal de la aplicación(Menú de Selección) <i class="fas fa-desktop"></i></b>
+										</figcaption>
+									</figure>
+									<figure class="col-md-4">
+										<a href="Proyectos/PJ3/Images/Interfaz.jpg" data-size="734x586">
+											<img src="Proyectos/PJ3/Images/Interfaz.jpg" class="img-fluid">
+										</a>
+										<figcaption>
+											<b>Interfaz principal de la aplicación(Menú de Selección) <i class="fas fa-desktop"></i></b>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>				
+			</div>
+		</div>
+	</div>
+</div>				<div class="tab-pane fade in" id="Contacto" role="tabpanel">
+	<div class="row justify-content-around">
+		<div class="col-8 col-sm-5 col-lg-3">
+			<div class="card-wrapper">
+				<div id="correo" class="card card-rotating text-center">
+					<div class="face front" style="background-color: transparent;">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-12 white rounded-pill" style="height:3em">
+									<h1><i class="far fa-envelope"></i></h1>
+								</div>
+							</div>
+							<div class="row d-flex justify-content-center">
+								<a class="btn-floating btn-lg btn-warning rotate-btn" data-card="correo"><i class="fas fa-arrow-alt-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="face back" style="background-color: transparent;">
+						<div class="card-body">
+							<div class="row">
+								<div style="height:3em;" class="col-md-12 d-flex justify-content-center align-items-center pt-3 white rounded-pill">
+									<p>alexisescalona1@hotmail.com</p>
+								</div>
+							</div>
+							<div class="row d-flex justify-content-center">
+								<a class="btn-floating btn-lg btn-warning rotate-btn" data-card="correo"><i class="fas fa-arrow-alt-circle-left"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-8 col-sm-5 col-lg-3">
+			<div class="card-wrapper">
+				<div id="telefono" class="card card-rotating text-center flipped">
+					<div class="face front" style="background-color: transparent;">
+						<div class="card-body">
+							<div class="row">
+								<div style="height:3em;" class="col-md-12 d-flex justify-content-center align-items-center pt-3 white rounded-pill">
+									<p>55-61-64-41-89</p>
+								</div>
+							</div>
+							<div class="row d-flex justify-content-center">
+								<a class="btn-floating btn-lg btn-warning rotate-btn" data-card="telefono"><i class="fas fa-arrow-alt-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="face back" style="background-color: transparent;">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-12 white rounded-pill" style="height:3em">
+									<h1><i class="fas fa-phone"></i></h1>
+								</div>
+							</div>
+							<div class="row d-flex justify-content-center">
+								<a class="btn-floating btn-lg btn-warning rotate-btn" data-card="telefono"><i class="fas fa-arrow-alt-circle-left"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>			</div>
+		</div>
+		<footer class="page-footer font-small special-color-dark mt-3 pt-4" id="footer">
+			<div class="container">
+				<ul class="list-unstyled list-inline text-center">
+					<li class="list-inline-item">
+						<a class="btn-floating btn-fb mx-1">
+							<i class="fab fa-facebook-f"> </i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-tw mx-1">
+							<i class="fab fa-twitter"> </i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-gplus mx-1">
+							<i class="fab fa-google-plus-g"> </i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-li mx-1">
+							<i class="fab fa-linkedin-in"> </i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a class="btn-floating btn-dribbble mx-1">
+							<i class="fab fa-dribbble"> </i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-copyright text-center py-3">© 2019 Copyright:
+				<a href="https://mdbootstrap.com/education/bootstrap/"> Alexis Escalona Picazo</a>
+			</div>
+		</footer>
+	</div>
+    <!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="dist/js/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="dist/js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="dist/js/mdb.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		/*$(".hola").sticky({
+			zIndex: 10000,
+			stickyClass: ['grey lighten-2', 'rounded', 'mb-0', 'border border-dark'],
+			minHeight: 576,
+		});*/
+		$(".jarallax").css("z-index","2");
+		
+		$('[data-toggle="popover-hover"]').popover({
+			html: true,
+			trigger: 'hover',
+			placement: 'top',
+			content: function () { return '<img src="' + $(this).data('img') + '" />'; }
+		});
+		
+		$("#lightbox").load("dist/mdb-addons/mdb-lightbox-ui.html");
+		
+		/*$(".enfoca").on("click", function (){
+			$("body").css("overflow", "hidden");
+		});
+		
+		$("body").on("change",".pswp", function(){
+			$("body").css("overflow", "auto");
+		});*/
+	});
+	</script>
+</body>
+</html
