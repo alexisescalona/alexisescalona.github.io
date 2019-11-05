@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -10,23 +10,7 @@
 	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Material Design Bootstrap -->
 	<link href="dist/css/mdb.min.css" rel="stylesheet">
-	<style>
-	@import url('https://fonts.googleapis.com/css?family=Poppins');
-
-	/* BASIC */
-
-	body {
-		height: 100vh;
-	}
-
-	/*img {
-		pointer-events: none;
-	}*/
-
-	.card{
-		background-color: transparent;
-	}
-	</style>
+	<link href="lib/site.css" rel="stylesheet">
 </head>
 <body class="elegant-color-dark">
 	<div class="container-fluid h-100">
@@ -67,9 +51,6 @@
 					<li class="nav-item">
 						<a class="nav-link" data-toggle="tab" href="#Proyectos" role="tab"><i class="far fa-file-code"></i> Mis Proyectos</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="#Contacto" role="tab"><i class="fas fa-address-book"></i> Contacto</a>
-					</li>
 				</ul>
 			</div>
 		</div>
@@ -80,13 +61,11 @@
 		<div class="card-body">
 			<h1 class="font-weight-bold">Página en desarrollo...<i class="fas fa-exclamation-circle"></i></h1>
 			<h5>(Esta página se actualiza diariamente)</h5>
-			<br><h4>La secciones de:</h4>
+			<br><h4>La sección de:</h4>
 			<h5 class="mb-0"><ul>
-				<li>Acerca de mí</li>
 				<li>Mis proyectos</li>
-				<li>Contacto</li>
 			</ul></h5>
-			<h4>Se encuentran disponibles parcialmente</h4>
+			<h4>Se encuentra disponible parcialmente</h4>
 		</div>
 	</div>
 </div>				<div class="tab-pane fade in" id="Yo" role="tabpanel">
@@ -124,14 +103,17 @@
 						<div class="card-body">
 							<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning">
 								<li class="nav-item">
-									<a class="nav-link active" data-toggle="tab" href="#PerfilAcademico" role="tab">Perfil Académico</a>
+									<a class="nav-link active" data-toggle="tab" href="#PerfilAcademico" role="tab"><i class="fas fa-graduation-cap"></i></a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" data-toggle="tab" href="#Reconocimientos" role="tab">Reconocimientos</a>
+									<a class="nav-link" data-toggle="tab" href="#ExperienciaLaboral" role="tab"><i class="fas fa-briefcase"></i></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href="#Reconocimientos" role="tab"><i class="fas fa-award"></i></a>
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true"
-									aria-expanded="false">Certificaciones</a>
+									aria-expanded="false"><i class="fas fa-certificate"></i></a>
 									<div class="dropdown-menu dropdown-info">
 										<a class="dropdown-item" data-toggle="tab" href="#Idiomas" role="tab">Idiomas</a>
 										<a class="dropdown-item" data-toggle="tab" href="#PaqueteriaOffice" role="tab">Paquetería Office</a>
@@ -142,7 +124,8 @@
 								<div class="tab-pane fade in show active" id="PerfilAcademico" role="tabpanel">
 									<div class="card white text-dark">
 										<div class="card-body">
-											Pasante de la Licenciatura en Ingeniería Cibernética y Sistemas Computacionales en la
+											<b>Perfil Academico</b>
+											<br><br>Pasante de la Licenciatura en Ingeniería Cibernética y Sistemas Computacionales en la
 											Universidad La Salle México con un promedio de 8.8 
 											<br><br>*(Actualmente en proceso de liberación del servicio social.)
 											<!--<a class="btn btn-sm btn-primary" data-toggle="popover-hover" data-img="https://mdbootstrap.com/img/logo/mdb192x192.jpg">
@@ -151,10 +134,28 @@
 										</div>
 									</div>
 								</div>
+								<div class="tab-pane fade" id="ExperienciaLaboral" role="tabpanel">
+									<div class="card white text-dark">
+										<div class="card-body">
+											<b>Experiencia Laboral</b>
+											<br><br><b>Servicio Social:</b> (Enero 2018 - Septiembre 2018)
+											<br>Realizado en la Universidad La Salle México
+											<br><b>Tareas:</b> Desarrollo de un sistema web encargado de realizar un seguimiento de los egresados 
+											de la universidad <i>(Login, Registro de Alumnos y Directivos, Actualizacion y Borrado de Datos, 
+											Consultas de alumnos de acuerdo a distintos parámetros, Generación de Reportes)</i>.
+											<br><b>Tecnologías:</b> .NET MVC Core 2.5, CSS, Bootstrap, Javascript, JQuery, AJAX, C#, Razor y JSON 
+											<br><b>Base de Datos:</b> MS SQL Server
+											<br><b>Servidor:</b> Máquina Virtual de Ubuntu con DotNETCore, MS SQL Server y Nginx 
+											<br><i>Se presentó como un requerimiento para la acreditación del programa educativo de la carrera por 
+											parte de CACEI.</i>
+										</div>
+									</div>
+								</div>
 								<div class="tab-pane fade" id="Reconocimientos" role="tabpanel">
 									<div class="card white text-dark">
 										<div class="card-body">
-											<br>• Mejor página web en el evento "Expo Empresa y Jóvenes Emprendedores" de la escuela 
+											<b>Reconocimientos</b>
+											<br><br>• Mejor página web en el evento "Expo Empresa y Jóvenes Emprendedores" de la escuela 
 											Justo Sierra San Mateo por 3 años consecutivos (2012-2014).
 											<br><br>• 2 Lugar en el concurso de Programación nivel intermedio llevado acabo en la semana de 
 											Ingeniería del 2016 de la Universidad La Salle.
@@ -164,7 +165,8 @@
 								<div class="tab-pane fade" id="Idiomas" role="tabpanel">
 									<div class="card white text-dark">
 										<div class="card-body">
-											<br>• Cambridge Starters 2005 Con un resultado de 13 escudos
+											<b>Certificaciones Idiomas</b>
+											<br><br>• Cambridge Starters 2005 Con un resultado de 13 escudos
 											<br>• Preliminary English Test (PET) Con un resultado B1 Meritorio
 											<br>• TOEFL ITP 2014 Con un resultado de 533 puntos
 											<br>• IELTS 2014 Con un resultado de banda 6.5
@@ -174,7 +176,8 @@
 								<div class="tab-pane fade" id="PaqueteriaOffice" role="tabpanel">
 									<div class="card white text-dark">
 										<div class="card-body">
-											<br>• Microsoft Word 2007 Academic
+											<b>Certificaciones Paqueteria Office</b>
+											<br><br>• Microsoft Word 2007 Academic
 											<br>• Microsoft Excel 2007 Academic
 											<br>• Microsoft Powerpoint 2007 Academic
 										</div>
@@ -341,7 +344,7 @@
 										<div class="card-body">
 											<div class="row text-center">
 												<div class="col">
-													<b>Librerías y complementos para desarrollo de páginas web</b>
+													<b>Frameworks, Librerías y complementos para desarrollo de páginas web</b>
 												</div>
 											</div>
 											<div class="table-responsive text-nowrap">
@@ -441,6 +444,10 @@
 															<td class="p-0"><p class="mt-1 mb-0">MySQL</p></td>
 														</tr>
 														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/PostgreSQL.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">PostgreSQL</p></td>
+														</tr>
+														<tr>
 															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/CosmosDB.jpg" style="height: 2em; width: 2em;"></td>
 															<td class="p-0"><p class="mt-1 mb-0">Microsoft Azure Cosmos DB</p></td>
 														</tr>
@@ -504,12 +511,24 @@
 															<td class="p-0"><p class="mt-1 mb-0">Unity</p></td>
 														</tr>
 														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/GameMaker2.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">GameMaker Studio 2</p></td>
+														</tr>
+														<tr>
 															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/RPGMaker.jpg" style="height: 2em; width: 2em;"></td>
 															<td class="p-0"><p class="mt-1 mb-0">RPG Maker MV</p></td>
 														</tr>
 														<tr>
 															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/SpriterPro.jpg" style="height: 2em; width: 2em;"></td>
 															<td class="p-0"><p class="mt-1 mb-0">Spriter Pro</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/JuiceFX.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Juice FX</p></td>
+														</tr>
+														<tr>
+															<td class="text-center p-0"><img class="img-fluid" src="Media/Images/PixelFXDesigner.jpg" style="height: 2em; width: 2em;"></td>
+															<td class="p-0"><p class="mt-1 mb-0">Pixel FX Designer</p></td>
 														</tr>
 													</tbody>
 												</table>
@@ -2007,70 +2026,343 @@
 			</div>
 		</div>
 	</div>
-</div>			</div>
+</div>				<div class="tab-pane fade" id="AnalisisTECNOCOM" role="tabpanel">
+	<div class="card">
+		<div class="card-body">
+			<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#PE4VG" role="tab"><i class="fas fa-binoculars"></i> Visión General</a>
+				</li>
+				<li>
+					<a class="nav-link" data-toggle="tab" href="#PE4P" role="tab"><i class="fas fa-question-circle"></i> Problemática</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PE4C" role="tab"><i class="fas fa-list-alt"></i> Características</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PE4DT" role="tab"><i class="fas fa-clipboard-list"></i> Detalles Técnicos</a>
+				</li>
+			</ul>
+			<div class="tab-content pt-3">
+				<div class="tab-pane fade in show active" id="PE4VG" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-8">
+									<b>¿Qué es?</b>
+									<br><p class="mb-0">Programa que obtiene la utilidad promedio del posible lanzamiento de una impresora al mercado
+									de acuerdo al costo de mano de obra directa, el costo de las partes y la demanda.</p>
+									<br><b>Objetivo</b>
+									<br><p class="mb-0">Entender el comportamiento de la ecuación establecida para que a través de ciertos parámetros
+									podamos realizar un análisis de riesgo.</p>
+								</div>
+								<div class="col-md-4">
+									<div class="mdb-lightbox no-margin">
+										<figure class="col">
+											<a href="Media/Images/PE4/Interfaz.jpg" data-size="1984x2484">
+												<img src="Media/Images/PE4/Interfaz.jpg" class="img-fluid" style="width:246px; height:186px;">
+											</a>
+											<figcaption>
+												<b>Interfaz principal de la aplicación <i class="fas fa-desktop"></i> <i class="fas fa-mobile"></i></b>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PE4P" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col">
+									<b>Problemática</b>
+									<div class="table-responsive text-nowrap">
+										<table class="table table-sm m-0">
+											<tbody>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Tecnocom planea lanzar una impresora al mercado:</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">La utilidad está dada por la siguiente ecuación: (2490-c1-c2)x - 10000000.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">C1 es el costo de mano de obra directa.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">C2 es el costo de las partes involucradas.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">X es la demanda del primer año.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">Realizar un análisis de riesgo.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">Calcular la ganancia promedio, la desviación estándar, la utilidad mínima y la máxima.</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PE4C" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col">
+									<b>La simulación incluye:</b>
+									<ul>
+										<li>Tabla con especificaciones de la simulación:
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm">
+													<tbody>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Número de iteración</td>
+															<td class="p-0"><p class="mt-1 mb-0">Número aleatorio X</td>
+														</tr>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Número aleatorio C1</td>
+															<td class="p-0"><p class="mt-1 mb-0">Demanda</td>
+														</tr>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Costo de mano de obra directa</td>
+															<td class="p-0"><p class="mt-1 mb-0">Utilidad</td>
+														</tr>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Número aleatorio C2</td>
+															<td class="p-0"><p class="mt-1 mb-0">Utilidad Promedio</td>
+														</tr>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Costo de las partes involucradas</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</li>
+										<li>Ganancia promedio y desviación estándar.</li>
+										<li>Utilidad mínima y máxima.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PE4DT" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col">
+									<div class="table-responsive text-nowrap">
+										<table class="table table-sm table-bordered m-0">
+											<tbody>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Tecnologías</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>VBA Excel</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Librerías adicionales</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>S/L</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Plataforma</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>Escritorio y móvil</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Sistema Operativo</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>Cualquiera</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Memoria en disco requerida</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>87 KB</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">RAM requerida</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>Depende del número de iteraciones</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>				<div class="tab-pane fade in" id="Contacto" role="tabpanel">
-	<div class="row justify-content-around">
-		<div class="col-8 col-sm-5 col-lg-3">
-			<div class="card-wrapper">
-				<div id="correo" class="card card-rotating text-center">
-					<div class="face front" style="background-color: transparent;">
+</div>				<div class="tab-pane fade" id="Gasolinera" role="tabpanel">
+	<div class="card">
+		<div class="card-body">
+			<ul class="nav md-pills nav-justified rounded-lg mb-0 border border-dark elegant-color pills-warning">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#PE5VG" role="tab"><i class="fas fa-binoculars"></i> Visión General</a>
+				</li>
+				<li>
+					<a class="nav-link" data-toggle="tab" href="#PE5P" role="tab"><i class="fas fa-question-circle"></i> Problemática</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PE5C" role="tab"><i class="fas fa-list-alt"></i> Características</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#PE5DT" role="tab"><i class="fas fa-clipboard-list"></i> Detalles Técnicos</a>
+				</li>
+			</ul>
+			<div class="tab-content pt-3">
+				<div class="tab-pane fade in show active" id="PE5VG" role="tabpanel">
+					<div class="card white text-dark">
 						<div class="card-body">
 							<div class="row">
-								<div class="col-md-12 white rounded-pill" style="height:3em">
-									<h1><i class="far fa-envelope"></i></h1>
+								<div class="col-md-8">
+									<b>¿Qué es?</b>
+									<br><p class="mb-0">Programa que simula un día común de trabajo en una gasolinera de acuerdo con varios parámetros.</p>
+									<br><b>Objetivo</b>
+									<br><p class="mb-0">Entender el funcionamiento de una gasolinera como un Modelo M/M/1.</p>
 								</div>
-							</div>
-							<div class="row d-flex justify-content-center">
-								<a class="btn-floating btn-lg btn-warning rotate-btn" data-card="correo"><i class="fas fa-arrow-alt-circle-right"></i></a>
+								<div class="col-md-4">
+									<div class="mdb-lightbox no-margin">
+										<figure class="col">
+											<a href="Media/Images/PE5/Interfaz.jpg" data-size="3829x3277">
+												<img src="Media/Images/PE5/Interfaz.jpg" class="img-fluid" style="width:246px; height:186px;">
+											</a>
+											<figcaption>
+												<b>Interfaz principal de la aplicación <i class="fas fa-desktop"></i> <i class="fas fa-mobile"></i></b>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="face back" style="background-color: transparent;">
+				</div>
+				<div class="tab-pane fade" id="PE5P" role="tabpanel">
+					<div class="card white text-dark">
 						<div class="card-body">
 							<div class="row">
-								<div style="height:3em;" class="col-md-12 d-flex justify-content-center align-items-center pt-3 white rounded-pill">
-									<p>alexisescalona1@hotmail.com</p>
+								<div class="col">
+									<b>Problemática</b>
+									<div class="table-responsive text-nowrap">
+										<table class="table table-sm m-0">
+											<tbody>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Simular el comportamiento de un gasolinera de acuerdo con los siguientes parámetros:</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">La utilidad está dada por la siguiente ecuación: (2490-c1-c2)x - 10000000.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">C1 es el costo de mano de obra directa.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">C2 es el costo de las partes involucradas.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">X es la demanda del primer año.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">Realizar un análisis de riesgo.</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0">Calcular la ganancia promedio, la desviación estándar, la utilidad mínima y la máxima.</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
 								</div>
 							</div>
-							<div class="row d-flex justify-content-center">
-								<a class="btn-floating btn-lg btn-warning rotate-btn" data-card="correo"><i class="fas fa-arrow-alt-circle-left"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PE5C" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col">
+									<b>La simulación incluye:</b>
+									<ul>
+										<li>Tabla con especificaciones de la simulación:
+											<div class="table-responsive text-nowrap">
+												<table class="table table-sm">
+													<tbody>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Número de iteración</td>
+															<td class="p-0"><p class="mt-1 mb-0">Número aleatorio X</td>
+														</tr>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Número aleatorio C1</td>
+															<td class="p-0"><p class="mt-1 mb-0">Demanda</td>
+														</tr>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Costo de mano de obra directa</td>
+															<td class="p-0"><p class="mt-1 mb-0">Utilidad</td>
+														</tr>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Número aleatorio C2</td>
+															<td class="p-0"><p class="mt-1 mb-0">Utilidad Promedio</td>
+														</tr>
+														<tr>
+															<td class="p-0"><p class="mt-1 mb-0">Costo de las partes involucradas</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</li>
+										<li>Ganancia promedio y desviación estándar.</li>
+										<li>Utilidad mínima y máxima.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="PE5DT" role="tabpanel">
+					<div class="card white text-dark">
+						<div class="card-body">
+							<div class="row">
+								<div class="col">
+									<div class="table-responsive text-nowrap">
+										<table class="table table-sm table-bordered m-0">
+											<tbody>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Tecnologías</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>VBA Excel</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Librerías adicionales</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>S/L</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Plataforma</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>Escritorio y móvil</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Sistema Operativo</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>Cualquiera</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">Memoria en disco requerida</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>87 KB</td>
+												</tr>
+												<tr>
+													<td class="p-0"><p class="mt-1 mb-0 font-weight-bold">RAM requerida</p></td>
+													<td class="p-0"><p class="mt-1 mb-0"></p>Depende del número de iteraciones</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-8 col-sm-5 col-lg-3">
-			<div class="card-wrapper">
-				<div id="telefono" class="card card-rotating text-center flipped">
-					<div class="face front" style="background-color: transparent;">
-						<div class="card-body">
-							<div class="row">
-								<div style="height:3em;" class="col-md-12 d-flex justify-content-center align-items-center pt-3 white rounded-pill">
-									<p>55-61-64-41-89</p>
-								</div>
-							</div>
-							<div class="row d-flex justify-content-center">
-								<a class="btn-floating btn-lg btn-warning rotate-btn" data-card="telefono"><i class="fas fa-arrow-alt-circle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="face back" style="background-color: transparent;">
-						<div class="card-body">
-							<div class="row">
-								<div class="col-md-12 white rounded-pill" style="height:3em">
-									<h1><i class="fas fa-phone"></i></h1>
-								</div>
-							</div>
-							<div class="row d-flex justify-content-center">
-								<a class="btn-floating btn-lg btn-warning rotate-btn" data-card="telefono"><i class="fas fa-arrow-alt-circle-left"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	</div>
+</div>			</div>
 		</div>
 	</div>
 </div>			</div>
@@ -2079,28 +2371,28 @@
 			<div class="container">
 				<ul class="list-unstyled list-inline text-center">
 					<li class="list-inline-item">
-						<a class="btn-floating btn-fb mx-1">
-							<i class="fab fa-facebook-f"> </i>
+						<a id="bTelefonos" class="btn-floating btn-dark-green mx-1">
+							<i class="fas fa-phone"></i>
 						</a>
 					</li>
 					<li class="list-inline-item">
-						<a class="btn-floating btn-tw mx-1">
-							<i class="fab fa-twitter"> </i>
+						<a id="bCorreos" class="btn-floating btn-yellow mx-1">
+							<i class="far fa-envelope"></i>
 						</a>
 					</li>
 					<li class="list-inline-item">
-						<a class="btn-floating btn-gplus mx-1">
-							<i class="fab fa-google-plus-g"> </i>
+						<a id="bOCC" class="btn-floating btn-blue darken-4 mx-1">
+							<i class="fas fa-bullseye"></i>
 						</a>
 					</li>
 					<li class="list-inline-item">
-						<a class="btn-floating btn-li mx-1">
-							<i class="fab fa-linkedin-in"> </i>
+						<a id="bLinkedIn" class="btn-floating btn-li mx-1">
+							<i class="fab fa-linkedin-in"></i>
 						</a>
 					</li>
 					<li class="list-inline-item">
-						<a class="btn-floating btn-dribbble mx-1">
-							<i class="fab fa-dribbble"> </i>
+						<a id="bSoundcloud" class="btn-floating btn-deep-orange mx-1">
+							<i class="fab fa-soundcloud"></i>
 						</a>
 					</li>
 				</ul>
@@ -2119,35 +2411,7 @@
 	<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
 	<!-- MDB core JavaScript -->
 	<script type="text/javascript" src="dist/js/mdb.min.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-		/*$(".hola").sticky({
-			zIndex: 10000,
-			stickyClass: ['grey lighten-2', 'rounded', 'mb-0', 'border border-dark'],
-			minHeight: 576,
-		});*/
-		$(".jarallax").css("z-index","2");
-		
-		$('[data-toggle="popover-hover"]').popover({
-			html: true,
-			trigger: 'hover',
-			placement: 'top',
-			content: function () { return '<img src="' + $(this).data('img') + '" />'; }
-		});
-		
-		$("#lightbox").load("dist/mdb-addons/mdb-lightbox-ui.html");
-		
-		$(".proyectos > li > a").on("click", function(){
-			var nombre = $(this).text();
-			$(".proyectos > li > a").each(function (){
-				if($(this).hasClass("active"))
-				{
-					$(this).removeClass("active");
-					return false;
-				}
-			});
-		});
-	});
-	</script>
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<script type="text/javascript" src="lib/site.js"></script>
 </body>
 </html>

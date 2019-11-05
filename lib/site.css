@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* BASIC */
+
+body {
+	height: 100vh;
+}
+
+/*img {
+	pointer-events: none;
+}*/
+
+.card{
+	background-color: transparent;
+}
+
+.modal-footer{
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
